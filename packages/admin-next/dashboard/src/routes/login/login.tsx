@@ -75,7 +75,8 @@ export const Login = () => {
       <div className="m-4 flex w-full max-w-[300px] flex-col items-center">
         <LogoBox className="mb-4" />
         <div className="mb-4 flex flex-col items-center">
-          <Heading>{t("login.title")}</Heading>
+          {/* <Heading>{t("login.title")}</Heading> */} 
+          <Heading>Login test</Heading>
           <Text size="small" className="text-ui-fg-subtle text-center">
             {t("login.hint")}
           </Text>
